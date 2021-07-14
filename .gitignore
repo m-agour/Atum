@@ -1,3 +1,5 @@
 .vs/
 bin/
 bin-int/
+bin/Release-x64
+bin-int/Release-x64
