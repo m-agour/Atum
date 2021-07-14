@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sandbox", "Sandbox\Sandbox.vcxproj", "{3E48C3B9-DC6D-4988-B6A4-521948BA0B35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Atum", "Atum\Atum.vcxproj", "{A9653FB5-2B84-4363-9C75-7773F1E4FC7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9653FB5-2B84-4363-9C75-7773F1E4FC7A}.Debug|x64.ActiveCfg = Debug|x64
+		{A9653FB5-2B84-4363-9C75-7773F1E4FC7A}.Debug|x64.Build.0 = Debug|x64
+		{A9653FB5-2B84-4363-9C75-7773F1E4FC7A}.Release|x64.ActiveCfg = Release|x64
+		{A9653FB5-2B84-4363-9C75-7773F1E4FC7A}.Release|x64.Build.0 = Release|x64
+		{3E48C3B9-DC6D-4988-B6A4-521948BA0B35}.Debug|x64.ActiveCfg = Debug|x64
+		{3E48C3B9-DC6D-4988-B6A4-521948BA0B35}.Debug|x64.Build.0 = Debug|x64
+		{3E48C3B9-DC6D-4988-B6A4-521948BA0B35}.Release|x64.ActiveCfg = Release|x64
+		{3E48C3B9-DC6D-4988-B6A4-521948BA0B35}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51B97E34-50D0-4DF4-820E-A29E9B535916}
+	EndGlobalSection
+EndGlobal

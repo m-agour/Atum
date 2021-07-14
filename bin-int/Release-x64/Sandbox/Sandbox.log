@@ -1,0 +1,7 @@
+﻿  application.cpp
+C:\Dev\Atum\Sandbox\src\application.cpp(8,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Sandbox.vcxproj -> C:\Dev\Atum\bin\Release-x64\Sandbox\Sandbox.exe
