@@ -4,9 +4,12 @@
 
 // ---application-----------
 #include "Atum/Application.h"
+// ---  Log  -----------
+#include "Atum/Log.h""
 
 // ---standards------------
 //#include <stdio.h>
 
 // ---Entry Point-----------
 #include "Atum/EntryPoint.h"
+

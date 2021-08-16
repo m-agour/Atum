@@ -1,22 +1,24 @@
 #include <Atum.h>
+#include <Atum/Core/EntryPoint.h>
 
+#include "Sandbox2D.h"
+#include "ExampleLayer.h"
 
-class Sandbox : public Atum::Application 
+class Sandbox : public Atum::Application
 {
 public:
-	Sandbox() 
+	Sandbox(Atum::ApplicationCommandLineArgs args)
 	{
-
+		// PushLayer(new ExampleLayer());
+		PushLayer(new Sandbox2D());
 	}
 
-	~Sandbox() 
+	~Sandbox()
 	{
-
 	}
-
 };
 
-Atum::Application* Atum::CreatApplication() 
+Atum::Application* Atum::CreateApplication(Atum::ApplicationCommandLineArgs args)
 {
-	return new Sandbox();
+	return new Sandbox(args);
 }

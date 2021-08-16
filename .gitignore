@@ -1,5 +1,18 @@
-.vs/
-bin/
+# Binaries
+**/bin/
 bin-int/
-bin/Release-x64
-bin-int/Release-x64
+
+# Atum files
+*.log
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+# Directories
+Atum/vendor/VulkanSDK
+Atumnut/assets/cache
+scripts/__pycache__
